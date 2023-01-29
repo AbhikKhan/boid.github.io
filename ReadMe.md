@@ -4,6 +4,7 @@ This is **Craig Reynolds'** Flocking simulation algorithm, implemented with p5.j
 <li>Allignment: Boids try to change their position so that it corresponds with the average alignment of other nearby boids.</li>
 <li>Cohesion: Every boid attempts to move towards the average position of other nearby boids.</li>
 </ul>
-<br><br>
-
+<br>
 The algorithm is further optimized using the **Quad Tree** data structure.<br>At each iteration the boids are inserted into the quadtree and each boid get to know about their neighbor using the quadtree in O(log(n)) time.
+<br>To see the simulation <a href='https://abhikkhan.github.io/boid.github.io/'>Click here</a>.
+
